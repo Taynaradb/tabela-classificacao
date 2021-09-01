@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    
+    <div class="bg"></div>
+    <div class="mainbg container d-flex justify-content-center flex-column align-items-center vh-100">
+    <h1 class="mb-5 text-muted"> Tabela de classificação</h1>
+    <table class=" table table-bordered   text-center">
+        <tr>
+            <th>Participantes</th>
+            <th>Pontos</th>
+            <th>Ações</th>
+        </tr>
+        <tr>
+            <td>Cruzeiro</td>
+            <td class="pontos-cruzeiro">0</td>
+            <td class="acoes-cruzeiro">
+                <button class="btn btn-primary" id="vitoria-cruzeiro">Vitoria</button>
+                <button class="btn btn-primary" id="empate-cruzeiro">Empate</button>
+                <button class="btn btn-primary" id="derota-cruzeiro">Derrota</button>
+            </td>
+        </tr>
+
+        <tr>
+           <td>Flamengo</td>
+           <td class="pontos-flamengo">0</td>
+           <td class="acoes-vinicius">
+               <button class="btn btn-primary" id="vitoria-flamengo">Vitoria</button>
+               <button class="btn btn-primary" id="empate-flamengo">Empate</button>
+               <button class="btn btn-primary" id="derota-flamengo">Derrota</button>
+           </td>
+       </tr>
+
+    </table>
+
+    <button class=" m-5 btn btn-danger" id="finalizar">Finalizar jogo</button>
+
+       <table class="table  table-bordered text-center">
+        <tr>
+            <th>Posição <img width="50px" class="mx-5" src="images/trophy.png" alt=""></th>
+        </tr>
+        <tr>
+            <td id="primeiro">Primeiro lugar</td>
+        </tr>
+
+        <tr>
+           <td id="segundo">Segundo lugar</td>
+       </tr>
+       </table>
+    </div>
+    </div>
+
+       <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+       <script src="js/js.js"></script>
+</body>
+</html>
